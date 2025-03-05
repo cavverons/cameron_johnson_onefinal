@@ -1,0 +1,257 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+nav {
+    padding: 10px 40px;
+    width: 100%;
+    background-color: steelblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+}
+
+nav a {
+    font-family: "Rowdies", sans-serif;
+    font-weight: 300;
+    margin: 10px;
+    padding: 8px 12px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: large;
+    color: black;
+    background-color: azure;
+    border: 3px solid azure;
+    border-radius: 6px;
+    box-shadow: 3px 3px 5px black;
+    transition: 0.3s ease-in-out;
+}
+
+nav a:hover  {
+    color: azure;
+    background-color: black;
+    border-color: black;
+}
+
+nav img {
+    width: 60px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: 50px;
+}
+body{ 
+    background: #acdaf9;
+}
+
+h1{
+    margin: 20px 600px 50px;
+    text-align: center;
+    font-family: "Rowdies", sans-serif;
+    font-weight: 400;
+    border: solid 5px steelblue;
+    border-radius: 30px;
+    box-shadow: 5px 5px;
+    background-color: white;
+}
+
+h2{
+    font-family: "Rowdies", sans-serif;
+    text-align: center;
+    margin-left: -50px;
+    margin-right: 1600px;
+    margin-bottom: 100px;
+    border-right: solid 5px steelblue;
+    border-top: solid 5px steelblue;
+    color: white;
+    border-bottom: solid 5px steelblue;
+    background: black;
+    border-radius: 15px;
+}
+
+h3{
+    margin: 30px 700px 50px;
+    text-align: center;
+    font-family: "Rowdies", sans-serif;
+    font-weight: 300;
+    border: solid 5px steelblue;
+    border-radius: 30px;
+    box-shadow: 5px 5px;
+    background-color: white;
+}
+
+h4{
+    max-width: 900px;
+    margin: -350px auto 250px 750px;
+    padding: 15px;
+    font-family: Arial, sans-serif;
+    border: solid 12px steelblue;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: 5px 5px black;
+}
+
+
+.honorablebox{
+    margin-bottom: 10%;
+    margin-left: 25%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    list-style: none;
+    justify-content: center;
+    gap: 20px;
+    width: max-content;
+}
+
+.honorablebox img{
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.honorablebox li{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+.chasebox{
+    grid-column-start: 2;
+    position: relative;
+    display: inline-block;
+    border: solid 10px steelblue;
+    background-color: steelblue;
+    border-radius: 8px;
+    box-shadow: 0px -5px 7px 6px black;
+}
+
+.bixbox{
+    grid-row: 2;
+    position: relative;
+    display: inline-block;
+    border: solid 10px steelblue;
+    background-color: steelblue;
+    border-radius: 8px;
+    box-shadow:  -6px 6px 7px 6px black;
+}
+
+.tbox{
+    grid-row: 2;
+    position: relative;
+    display: inline-block;
+    border: solid 10px steelblue;
+    background-color: steelblue;
+    border-radius: 8px;
+    box-shadow:  6px 6px 7px 6px black;
+}
+
+.kidbox{
+    grid-row: 2;
+    position: relative;
+    display: inline-block;
+    border: solid 10px steelblue;
+    background-color: steelblue;
+    border-radius: 8px;
+    box-shadow: 0px 0px 7px 6px black;
+}
+
+.nickbox{
+    grid-column-start: 2;
+    position: relative;
+    display: inline-block;
+    border: solid 10px steelblue;
+    background-color: steelblue;
+    border-radius: 8px;
+    box-shadow:  0px 6px 7px 6px black;
+}
+
+.bhover, .chover, .dhover, .ehover, .fhover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 16px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    border-radius: 15px;
+}
+
+
+.chasebox:hover .bhover {
+    opacity: 1;
+}
+
+.bixbox:hover .chover {
+    opacity: 1;
+}
+.kidbox:hover .dhover {
+    opacity: 1;
+}
+.tbox:hover .ehover {
+    opacity: 1;
+}
+
+.nickbox:hover .fhover{
+    opacity: 1;
+}
+
+.musiccontainer {
+    margin: 50px; 
+    overflow: hidden;
+    border: 5px solid silver;
+
+    justify-content: center;
+    align-items: center;
+    max-width: 600px; 
+    box-shadow: 5px 5px 3px steelblue;
+    width: 100%;
+}
+
+
+
+ 
+img{
+    max-width: 600px;
+    width: 100%;
+    
+}
+
+a img{ 
+    width: 100%    
+}
+
+#titles{
+    margin-top: 400px;
+    font-size: 30px;
+}
+
+#texty{
+    border-radius: 15px;
+    font-family: "Prompt", sans-serif;
+    font-weight: 600;
+    letter-spacing: -0.5px;
+}
+
+.text{
+    font-family: "Prompt", sans-serif;
+    letter-spacing: -0.5px;
+
+}
+.start{
+    background-image: url(https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExeXc0anc0aHdpaTlxMXlpNTNkcnJ4emhxcTN3aHl2eDM0MHpwdW5icSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/leuNkvf9pE6loEnjnb/giphy.gif);
+    background-position: center;
+    background-size: contain;
+}
+

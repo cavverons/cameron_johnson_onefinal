@@ -1,0 +1,146 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+nav {
+    padding: 10px 40px;
+    width: 100%;
+    background-color: steelblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+}
+
+nav a {
+    font-family: "Rowdies", sans-serif;
+    font-weight: 300;
+    margin: 10px;
+    padding: 8px 12px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: large;
+    color: black;
+    background-color: azure;
+    border: 3px solid azure;
+    border-radius: 6px;
+    box-shadow: 3px 3px 5px black;
+    transition: 0.3s ease-in-out;
+}
+
+nav a:hover  {
+    color: azure;
+    background-color: black;
+    border-color: black;
+}
+
+nav img {
+    width: 60px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: 50px;
+}
+body{ 
+    background: #acdaf9;
+}
+
+h1 {
+    margin: 20px 600px 100px;
+    text-align: center;
+    font-family: "Rowdies", sans-serif;
+    font-weight: 400;
+    border: solid 5px steelblue;
+    border-radius: 30px;
+    box-shadow: 5px 5px;
+    background-color: white;
+}
+
+.musiccontainer {
+    margin: 50px; 
+    overflow: hidden;
+    border: 5px solid silver;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 600px; 
+    box-shadow: 5px 5px 3px steelblue;
+}
+
+.musiccontainer img {
+    width: 100%; 
+    height: auto; 
+    display: block; 
+}
+
+.musicartist{
+    text-align: center;
+    line-height: 1.5;
+    color: black;
+    max-width: 100px;
+    margin: -350px auto 375px 750px;
+    padding: 10px;
+    font-family: "Rowdies", sans-serif;
+    border: solid 12px steelblue;
+    border-radius: 115px;
+    background-color: white;
+    box-shadow: 5px 5px black;
+}
+
+.jaytext{
+    max-width: 900px;
+    margin: -350px auto 250px 750px;
+    padding: 15px;
+    font-family: Arial, sans-serif;
+    border: solid 12px steelblue;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: 5px 5px black;
+}
+
+.jaytext h3{
+    font-family: "Prompt", sans-serif;
+    font-weight: 600;
+    letter-spacing: -0.5px;
+}
+
+.Aotext{ 
+    max-width: 900px;
+    margin: -350px auto 250px 750px;
+    padding: 15px;
+    font-family: Arial, sans-serif;
+    border: solid 12px steelblue;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: 5px 5px black;
+}
+
+.Aotext h3{
+    font-family: "Prompt", sans-serif;
+    font-weight: 600;
+    letter-spacing: -0.5px;
+}
+
+.dtext{ 
+    max-width: 900px;
+    margin: -350px auto 250px 750px;
+    padding: 15px;
+    font-family: Arial, sans-serif;
+    border: solid 12px steelblue;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: 5px 5px black;
+}
+
+.dtext h3{
+    font-family: "Prompt", sans-serif;
+    font-weight: 600;
+    letter-spacing: -0.5px;
+}
+.start{
+    background-image: url(https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExeXc0anc0aHdpaTlxMXlpNTNkcnJ4emhxcTN3aHl2eDM0MHpwdW5icSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/leuNkvf9pE6loEnjnb/giphy.gif);
+    background-position: center;
+    background-size: contain;
+}
